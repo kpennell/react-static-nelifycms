@@ -1,0 +1,41 @@
+{
+  "name": "react-static-example-basic",
+  "private": true,
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "bundle": "react-static bundle",
+    "export": "react-static export",
+    "serve": "serve dist -p 3000 -s"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "axios": "^0.18.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-hot-loader": "^4.3.12",
+    "react-static": "^6.0.18",
+    "classnames": "2.2.6",
+    "lodash": "4.17.11",
+    "material-ui": "1.0.0-beta.32",
+    "react-jss": "8.6.1",
+    "@material-ui/core": "3.9.2",
+    "@material-ui/icons": "3.0.2",
+    "classnames": "2.2.6",
+    "history": "4.7.2",
+    "moment": "2.24.0",
+    "node-sass": "4.11.0",
+    "nouislider": "13.1.0",
+    "prop-types": "15.7.1",
+    "react-datetime": "2.16.3",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "react-slick": "0.23.2",
+    "react-swipeable-views": "0.13.1"
+  },
+  "devDependencies": {
+    "eslint-config-react-tools": "1.x.x",
+    "serve": "10.1.1"
+  }
+}
